@@ -12,7 +12,7 @@ This script lets you select any part of the screen, extracts text using Tesserac
 ## 🛠️ Installation
 1. **Install required tools**:
 ```
-   sudo apt update && sudo apt install flameshot tesseract-ocr ocrmypdf xclip -y
+sudo apt update && sudo apt install flameshot tesseract-ocr ocrmypdf xclip -y
 ```
 
 2. **Download the script**:
