@@ -11,19 +11,19 @@ This script lets you select any part of the screen, extracts text using Tesserac
 
 ## 🛠️ Installation
 1. **Install required tools**:
-   ```bash
+```
    sudo apt update && sudo apt install flameshot tesseract-ocr ocrmypdf xclip -y
 ```
 
 2. **Download the script**:
-```bash
+```
 wget -O ~/screenshot-ocr.sh https://raw.githubusercontent.com/emonbhuiyan/Screenshot-Ocr/main/screenshot-ocr.sh
 chmod +x ~/screenshot-ocr.sh
 ```
 
 ## 🚀 Usage
 1. **Run the script**:
-```bash
+```
 ~/screenshot-ocr.sh
 ```
 
@@ -32,7 +32,7 @@ chmod +x ~/screenshot-ocr.sh
 - Click **"+ Add Shortcut"**
 - Name: **"Text Extractor"**
 - Command:
-```bash
+```
 /home/YOUR_USERNAME/screenshot-ocr.sh
 ```
 - Set a shortcut (Example: `Super + Shift + T`)
